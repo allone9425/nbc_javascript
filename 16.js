@@ -35,3 +35,22 @@ let fruits6 = ["사과", "바나나", "오렌지"];
 let slicedFruits = fruits6.slice(1, 2);
 
 console.log(slicedFruits);   // ["바나나"]
+
+console.log('-----');
+
+let numbers2 = [1, 2, 3, 4, 5];
+
+let filteredNumbers = numbers2.filter(function(item) {
+  return item === 5;
+});
+
+console.log(filteredNumbers);  
+
+
+let numbers5 = [1, 2, 3, 4, 5];
+
+let result = numbers5.find(function(item) {
+  return item > 3;
+});
+
+console.log(result);  
